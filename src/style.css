@@ -1,0 +1,24 @@
+#menu-toggle span {
+  transition: 0.2s ease-in-out;
+}
+
+#check-menu:checked ~ span {
+  background: red;
+}
+ 
+#check-menu:checked ~ span:nth-child(2) {
+  transform: rotate(45deg) translate(6px, 10px);
+}
+
+#check-menu:checked ~ span:nth-child(3) {
+  opacity: 0;
+}
+
+#check-menu:checked ~ span:nth-child(4) {
+  transform: rotate(-45deg) translate(6px, -10px);
+}
+
+.jumbo-bg-image {
+  background-image: url('./assets/images-casan/jumbotron.webp');
+  background-size: cover;
+}
