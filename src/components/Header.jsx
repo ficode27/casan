@@ -25,7 +25,7 @@ function Header() {
     <header class="flex items-center justify-between px-[0.3rem] mb-7">
       <div class="font-bold">
         <h2>{greeting}</h2>
-        <h4>alfiaff</h4>
+        <h4>user</h4>
       </div>
       
       <MenuToggle />

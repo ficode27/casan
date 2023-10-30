@@ -34,7 +34,7 @@ function App() {
   const textCap = [
     "\"Mendengarkan musik di Gunung Puntang, Mudah-mudahan dilirik Gemintang\"",
     "\"Dengan Casan hidup mu jadi Berkesan\"",
-    "\"Akhirnya ketemu kosan walaupun agak bocor dikir,tapi gak ngaruh\"",
+    "\"Akhirnya ketemu kosan walaupun agak bocor dikit,tapi gak ngaruh\"",
     "\"All in Prabowo\"",
     "\"Bagus sekali...\""
   ];
@@ -52,8 +52,7 @@ function App() {
           <TestiCards fullName="Bilvi Akbar" username="bilviakbar" texts={textCap[1]}/>
           <TestiCards fullName="Fahriza N.R" username="fahriz.n_r" texts={textCap[2]}/>
           <TestiCards fullName="Rafli Al-Ghifari" username="raflialghifari28_" texts={textCap[3]} />
-          <TestiCards fullName="Rawas" username="rawas_" texts={textCap[4]} />
-          
+          <TestiCards fullName="Petrus Duwith" username="petrusD_" texts={textCap[4]} />
         </Carousel>
       </div>
     </div>
